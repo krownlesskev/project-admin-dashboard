@@ -1,7 +1,10 @@
+import './app.styles.scss';
+import Drawer from './components/drawer/Drawer';
+
 function App() {
   return (
-    <div>
-      <h1>App</h1>
+    <div className='app-container'>
+      <Drawer />
     </div>
   );
 }
