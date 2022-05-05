@@ -21,10 +21,16 @@ const Header = () => {
             </div>
             <div className='header-bottom'>
                 <div className='header-bottom-left'>
-
+                    <img src="https://via.placeholder.com/75" />
+                    <div className='header-bottom-left-text'>
+                        <span className='sub-text'>Hi there,</span>
+                        <span className='main-text'>Kevin Sana (@kevin)</span>
+                    </div>
                 </div>
                 <div className='header-bottom-right'>
-
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
                 </div>
             </div>
         </div>
