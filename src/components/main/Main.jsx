@@ -19,12 +19,21 @@ const Main = () => {
                 </div>
                 <div className='header-bottom'>
                     <div className='header-bottom-left'>
-
+                        <img src="https://via.placeholder.com/75" alt="placeholder" />
+                        <div className='header-bottom-left-text'>
+                            <span className='sub-text'>Hi there,</span>
+                            <span className='main-text'>Kevin Sana (@krwnlesskev)</span>
+                        </div>
                     </div>
                     <div className='header-bottom-right'>
-
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
                     </div>
                 </div>
+            </div>
+            <div className='content'>
+                <span>content</span>
             </div>
         </div>
     );
