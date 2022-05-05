@@ -1,8 +1,17 @@
 .drawer-container {
     display: flex;
     flex-direction: column;
+    background-color: rgba($color: #3d91ff, $alpha: 1.0);
+    color: #ffffff;
+    width: 300px;
+}
+
+.drawer-header {
+    margin: 2vh 2vw 2vh 2vw;
+    display: flex;
+    align-items: center;
 
     h1 {
-        margin: 10px 80px 30px 10px;
+        margin: 0 1vw;
     }
 }

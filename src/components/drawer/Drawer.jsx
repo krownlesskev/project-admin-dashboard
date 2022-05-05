@@ -1,5 +1,6 @@
 import './Drawer.styles.scss';
 import {
+    MdDashboard,
     MdOutlineHome,
     MdOutlineContactMail,
     MdOutlineMessage,
@@ -14,8 +15,11 @@ import {
 const Drawer = () => {
     return (
         <div className='drawer-container'>
-            <h1>Dashboard</h1>
-            <ul>
+            <div className='drawer-header'>
+                <MdDashboard size='2em' />
+                <h1>Dashboard</h1>
+            </div>
+            <ul className='list-1'>
                 <li><MdOutlineHome /> Home</li>
                 <li><MdOutlineContactMail /> Profile</li>
                 <li><MdOutlineMessage /> Messages</li>
@@ -23,7 +27,7 @@ const Drawer = () => {
                 <li><MdOutlineTask /> Tasks</li>
                 <li><MdOutlineGroups /> Communities</li>
             </ul>
-            <ul>
+            <ul className='list-2'>
                 <li><MdOutlineSettings /> Settings</li>
                 <li><MdInfoOutline /> Support</li>
                 <li><MdOutlineShield /> Privacy</li>
