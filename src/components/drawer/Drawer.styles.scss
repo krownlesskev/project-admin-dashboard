@@ -3,21 +3,21 @@
     flex-direction: column;
     background-color: rgba($color: #3d91ff, $alpha: 1.0);
     color: #ffffff;
-    width: 300px;
+    width: 350px;
 }
 
 .drawer-header {
-    margin: 2vh 2vw 2vh 2vw;
+    margin: 10px 20px;
     display: flex;
     align-items: center;
 
-    h1 {
-        margin: 0 1vw;
+    h1{
+        margin: 0 20px;
     }
 }
 
-.list-1 {
-    margin: 1vh 2vw;
+.list {
+    margin: 2rem 2rem;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -25,11 +25,11 @@
     li{
         display: flex;
         align-items: center;
-        margin: 1vh 2vw;
+        margin: 0.75rem 0;
         font-size: 24px;
         
         span {
-            margin: 0 2vw;
+            margin: 0 2rem;
         }
     }
 }

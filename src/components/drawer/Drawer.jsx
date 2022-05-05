@@ -16,10 +16,10 @@ const Drawer = () => {
     return (
         <div className='drawer-container'>
             <div className='drawer-header'>
-                <MdDashboard size='2em' />
+                <MdDashboard size='3em' />
                 <h1>Dashboard</h1>
             </div>
-            <ul className='list-1'>
+            <ul className='list'>
                 <li>
                     <MdOutlineHome />
                     <span>
@@ -57,10 +57,25 @@ const Drawer = () => {
                     </span>
                 </li>
             </ul>
-            <ul className='list-2'>
-                <li><MdOutlineSettings /> Settings</li>
-                <li><MdInfoOutline /> Support</li>
-                <li><MdOutlineShield /> Privacy</li>
+            <ul className='list'>
+                <li>
+                    <MdOutlineSettings />
+                    <span>
+                        Settings
+                    </span>
+                </li>
+                <li>
+                    <MdInfoOutline />
+                    <span>
+                        Support
+                    </span>
+                </li>
+                <li>
+                    <MdOutlineShield />
+                    <span>
+                        Privacy
+                    </span>
+                </li>
             </ul>
         </div>
     );
