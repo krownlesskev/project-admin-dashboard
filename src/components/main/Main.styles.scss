@@ -153,10 +153,15 @@
         border: 2px solid blue;
         margin: 1rem 0 2rem 1.5rem;
         flex: 2.5;
-        p {
+        .content-left-p {
             margin: 1rem 0;
             font-size: 24px;
             font-weight: 600;
+        }
+
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
         }
     }
     
