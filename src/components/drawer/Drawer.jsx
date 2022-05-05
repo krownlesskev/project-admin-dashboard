@@ -20,12 +20,42 @@ const Drawer = () => {
                 <h1>Dashboard</h1>
             </div>
             <ul className='list-1'>
-                <li><MdOutlineHome /> Home</li>
-                <li><MdOutlineContactMail /> Profile</li>
-                <li><MdOutlineMessage /> Messages</li>
-                <li><MdOutlineTimer /> History</li>
-                <li><MdOutlineTask /> Tasks</li>
-                <li><MdOutlineGroups /> Communities</li>
+                <li>
+                    <MdOutlineHome />
+                    <span>
+                        Home
+                    </span>
+                </li>
+                <li>
+                    <MdOutlineContactMail />
+                    <span>
+                        Profile
+                    </span>
+                </li>
+                <li>
+                    <MdOutlineMessage />
+                    <span>
+                        Messages
+                    </span>
+                </li>
+                <li>
+                    <MdOutlineTimer />
+                    <span>
+                        History
+                    </span>
+                </li>
+                <li>
+                    <MdOutlineTask />
+                    <span>
+                        Tasks
+                    </span>
+                </li>
+                <li>
+                    <MdOutlineGroups />
+                    <span>
+                        Communities
+                    </span>
+                </li>
             </ul>
             <ul className='list-2'>
                 <li><MdOutlineSettings /> Settings</li>

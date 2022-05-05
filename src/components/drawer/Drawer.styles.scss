@@ -15,3 +15,21 @@
         margin: 0 1vw;
     }
 }
+
+.list-1 {
+    margin: 1vh 2vw;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+    li{
+        display: flex;
+        align-items: center;
+        margin: 1vh 2vw;
+        font-size: 24px;
+        
+        span {
+            margin: 0 2vw;
+        }
+    }
+}
