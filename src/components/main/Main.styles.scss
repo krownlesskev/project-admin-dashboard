@@ -2,3 +2,58 @@
     height: 100%;
     width: 100%;
 }
+
+.header-top {
+    display: flex;
+    justify-content: space-evenly;
+
+    .header-top-left {
+        flex: 3;
+        margin: 1rem 2rem;
+        display: flex;
+
+        input {
+            width: 100%;
+            margin: 0 1rem;
+            border: none;
+            border-radius: 30px;
+            background-color: rgba($color: #000000, $alpha: 0.1);
+
+        }
+    }
+
+    .header-top-right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0 1rem;
+
+        span {
+            margin: 0 1rem;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        img {
+            margin: 0 1rem;
+            border-radius: 30px;
+        }
+    }
+}
+
+@media (max-width:1504px){
+    .header-top-right {
+        img {
+            display: none;
+        }
+    }
+}
+
+@media (max-width:1176px){
+    .header-top {
+        .header-top-right {
+            display:none;
+        }
+    }
+}
