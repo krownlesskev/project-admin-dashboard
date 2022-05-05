@@ -15,13 +15,13 @@ const Header = () => {
                 </div>
                 <div className='header-top-right'>
                     <MdOutlineNotificationsActive size='2em' />
-                    <img src="https://via.placeholder.com/50" />
+                    <img src="https://via.placeholder.com/50" alt='placeholder' />
                     <span>Kevin Sana</span>
                 </div>
             </div>
             <div className='header-bottom'>
                 <div className='header-bottom-left'>
-                    <img src="https://via.placeholder.com/75" />
+                    <img src="https://via.placeholder.com/75" alt='placeholder' />
                     <div className='header-bottom-left-text'>
                         <span className='sub-text'>Hi there,</span>
                         <span className='main-text'>Kevin Sana (@kevin)</span>
