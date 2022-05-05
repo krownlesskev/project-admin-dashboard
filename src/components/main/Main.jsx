@@ -47,13 +47,13 @@ const Main = () => {
                 </div>
                 <div className='content-right'>
                     <div className="content-right-top">
-                        <p>Announcements</p>
+                        <p className='content-right-p'>Announcements</p>
                         <div className='announcements-container'>
 
                         </div>
                     </div>
                     <div className="content-right-bottom">
-                        <p>Trending</p>
+                        <p className='content-right-p'>Trending</p>
                         <div className="trending-container">
 
                         </div>
