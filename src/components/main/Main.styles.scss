@@ -139,3 +139,36 @@
         }
     }
 }
+
+// Content Styling vvv
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+
+    .content-left {
+        border: 2px solid blue;
+        margin: 1rem 0 2rem 1.5rem;
+        flex: 2.5;
+        p {
+            margin: 1rem 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+    }
+    
+    .content-right {
+        border: 2px solid aqua;
+        margin: 1rem 1.5rem 2rem 2rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .content-right-top{
+        }
+    }
+}

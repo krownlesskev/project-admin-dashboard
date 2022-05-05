@@ -33,7 +33,26 @@ const Main = () => {
                 </div>
             </div>
             <div className='content'>
-                <span>content</span>
+                <div className='content-left'>
+                    <p>Your Projects</p>
+                    <div className='projects-container'>
+
+                    </div>
+                </div>
+                <div className='content-right'>
+                    <div className="content-right-top">
+                        <p>Announcements</p>
+                        <div className='announcements-container'>
+
+                        </div>
+                    </div>
+                    <div className="content-right-bottom">
+                        <p>Trending</p>
+                        <div className="trending-container">
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
