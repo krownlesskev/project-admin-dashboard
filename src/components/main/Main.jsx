@@ -3,6 +3,7 @@ import './Main.styles.scss';
 import { MdOutlineSearch, MdOutlineNotificationsActive } from 'react-icons/md';
 import ProjectCard from './cards/project-card/ProjectCard';
 import AnnouncementCard from './cards/announcement-card/AnnouncementCard';
+import TrendingCard from './cards/trending-card/TrendingCard';
 
 const Main = () => {
     return (
@@ -56,7 +57,7 @@ const Main = () => {
                     <div className="content-right-bottom">
                         <p className='content-right-p'>Trending</p>
                         <div className="trending-container">
-
+                            <TrendingCard />
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,4 @@
 .main-container {
-    height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -119,11 +117,16 @@
 
 // Media Queries vvv
 
-@media (max-width:1504px){
+@media (max-width:1676px){
     .header-top-right {
         img {
             display: none;
         }
+    }
+
+    .content {
+        overflow: scroll;
+        flex-direction: column;
     }
 }
 
@@ -145,7 +148,6 @@
 
 .content {
     height: 100%;
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
     background-color: rgba($color: #000000, $alpha: 0.2);
