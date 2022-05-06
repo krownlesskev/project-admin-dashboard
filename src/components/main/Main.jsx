@@ -2,6 +2,7 @@ import React from 'react';
 import './Main.styles.scss';
 import { MdOutlineSearch, MdOutlineNotificationsActive } from 'react-icons/md';
 import ProjectCard from './cards/project-card/ProjectCard';
+import AnnouncementCard from './cards/announcement-card/AnnouncementCard';
 
 const Main = () => {
     return (
@@ -49,7 +50,7 @@ const Main = () => {
                     <div className="content-right-top">
                         <p className='content-right-p'>Announcements</p>
                         <div className='announcements-container'>
-
+                            <AnnouncementCard />
                         </div>
                     </div>
                     <div className="content-right-bottom">
