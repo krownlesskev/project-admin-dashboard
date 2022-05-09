@@ -156,6 +156,7 @@
 // Content Styling vvv
 
 .content {
+    overflow-y: scroll;
     height: 100%;
     display: flex;
     justify-content: space-evenly;
