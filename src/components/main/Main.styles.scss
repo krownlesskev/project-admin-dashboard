@@ -125,8 +125,17 @@
     }
 
     .content {
-        overflow: scroll;
+        overflow-y: scroll;
         flex-direction: column;
+        .content-left {
+            position: relative;
+            top: 200px;
+        }
+
+        .content-right {
+            position: relative;
+            top: 200px;
+        }
     }
 }
 
